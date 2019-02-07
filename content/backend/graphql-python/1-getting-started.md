@@ -75,7 +75,8 @@ And add following at the bottom of the file:
 
 ```python(path=".../graphql-python/hackernews/hackernews/settings.py")
 GRAPHENE = {
-    'SCHEMA': 'hackernews.schema.schema',
+    #'SCHEMA': 'hackernews.schema.schema',
+    'SCHEMA': 'schema.schema',
 }
 ```
 
